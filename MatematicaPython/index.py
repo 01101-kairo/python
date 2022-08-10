@@ -1,0 +1,2 @@
+print("saida")
+input('entrada')
