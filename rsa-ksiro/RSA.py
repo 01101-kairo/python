@@ -147,4 +147,4 @@ print("="*24)
 print(" cifra: ",  y)
 # print("\n y ^e: ", frar, "\n")
 print(" decifrar: ", deci)
-print("="*24)
+
