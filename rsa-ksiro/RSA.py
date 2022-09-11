@@ -6,16 +6,7 @@ criado: 18/09/21 09h10
 alterado: 01/10/21 14h28
 '''
 
-def mdc(avalor, bvalor):
-    '''
-    essa def tira o mdc
-    '''
-    if bvalor == 0:
-        return avalor
-    resto = avalor % bvalor
-    return mdc(bvalor, resto)
 
-    
 print("="*12, "[RSA]", "="*12)
 p = int(input(" p: "))
 PERCUSO = 1
@@ -156,4 +147,4 @@ print("="*24)
 print(" cifra: ",  y)
 # print("\n y ^e: ", frar, "\n")
 print(" decifrar: ", deci)
-print("="*24)
+
